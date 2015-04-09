@@ -8,7 +8,7 @@ service:
 pipeline:
     - name: command_stage_1
       type: command
-      command: echo "hello, world"
+      command: cho "hello, world"
     - name: command_stage_2
       type: command
       command: echo "hello, world" && sleep 1
