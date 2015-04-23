@@ -1,8 +1,8 @@
 service:
       type: github
       token: $GITHUB_TOKEN
-      repo: $GITHUB_REPOSITORY
-      from: takahi-i
+      repo: walter-github-sample-for-test
+      from: $GITHUB_USER_NAME
       update: .walter
 
 pipeline:
