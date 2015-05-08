@@ -2,14 +2,14 @@ service:
       type: github
       token: $GITHUB_TOKEN
       repo: walter-github-sample-for-test
-      from: $GITHUB_USER_NAME
+      from: walter-cd
       update: .walter
       filter: fix-*
 
 pipeline:
     - name: command_stage_1
       type: command
-      command: echo "fixed, world"
+      command: echo "filtered fixed, world"
     - name: command_stage_2
       type: command
       command: echo "hello, world" && sleep 1
