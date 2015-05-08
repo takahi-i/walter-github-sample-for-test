@@ -2,7 +2,7 @@ service:
       type: github
       token: $GITHUB_TOKEN
       repo: walter-github-sample-for-test
-      from: $GITHUB_USER_NAME
+      from: walter-cd
       update: .walter
       filter: fix-*
 
