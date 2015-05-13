@@ -4,7 +4,7 @@ service:
       repo: walter-github-sample-for-test
       from: walter-cd
       update: .walter
-      filter: fix-*
+      filter: fix-.*
 
 pipeline:
     - name: command_stage_1
