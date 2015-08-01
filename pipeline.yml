@@ -11,7 +11,7 @@ pipeline:
       command: cho "hello, world"
     - name: command_stage_2
       type: command
-      command: echo "hello, world" && sleep 1
+      command: echo "modified, world" && sleep 1
     - name: command_stage_3
       type: command
       command: echo "hello, world, command_stage_3"
